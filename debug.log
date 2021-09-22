@@ -1,0 +1,52 @@
+INFO 2021/05/19 12:54:48 Using config file: 
+Start building sites … 
+INFO 2021/05/19 12:54:48 syncing static files to /Users/frjo/Sites/hugo.test/public/
+DEBUG 2021/05/19 12:54:48 Render page Forms to "/form/index.html"
+DEBUG 2021/05/19 12:54:48 Render page xdeb.org to "/index.html"
+DEBUG 2021/05/19 12:54:48 Render page Tags to "/tags/index.html"
+DEBUG 2021/05/19 12:54:48 Render page Categories to "/categories/index.html"
+DEBUG 2021/05/19 12:54:48 creating alias: /tags/page/1/index.html redirecting to http://hugo.test/tags/
+DEBUG 2021/05/19 12:54:48 creating alias: /categories/page/1/index.html redirecting to http://hugo.test/categories/
+DEBUG 2021/05/19 12:54:48 creating alias: /page/1/index.html redirecting to http://hugo.test/
+DEBUG 2021/05/19 12:54:48 creating alias: /form/page/1/index.html redirecting to http://hugo.test/form/
+DEBUG 2021/05/19 12:54:48 Render XML for "sitemap" to "/sitemap.xml"
+DEBUG 2021/05/19 12:54:48 Render 404 page to "/404.html"
+DEBUG 2021/05/19 12:54:48 Render page xdeb.org to "/index.xml"
+DEBUG 2021/05/19 12:54:48 Render page Tags to "/tags/index.xml"
+DEBUG 2021/05/19 12:54:48 Render page Categories to "/categories/index.xml"
+DEBUG 2021/05/19 12:54:48 Render page Forms to "/form/index.xml"
+WARN 2021/05/19 12:54:48 found no layout file for "php" for kind "page": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+
+Template Metrics:
+
+      cache     cumulative       average       maximum         
+  potential       duration      duration      duration  count  template
+      -----     ----------      --------      --------  -----  --------
+        100  193.738179ms   48.434544ms   51.828799ms      4  partials/styles.html
+          0  151.875209ms   50.625069ms   54.540014ms      3  _default/list.html
+          0   52.663715ms   52.663715ms   52.663715ms      1  index.html
+        100    4.410425ms    1.102606ms    1.150829ms      4  partials/scripts.html
+         75    2.966323ms      741.58µs    2.326471ms      4  partials/meta.html
+         87     770.136µs     192.534µs     212.648µs      4  partials/menu.html
+          0     695.848µs     173.962µs     255.398µs      4  _default/rss.xml
+          0     368.019µs     184.009µs     221.578µs      2  _default/summary.html
+         80     362.994µs      90.748µs     129.581µs      4  partials/meta_json_ld.html
+          0     194.732µs     194.732µs     194.732µs      1  _internal/_default/sitemap.xml
+        100     175.749µs      43.937µs       91.62µs      4  partials/pagination.html
+          0     160.526µs      40.131µs      59.178µs      4  _internal/alias.html
+        100      69.698µs      34.849µs      48.464µs      2  partials/tracking.html
+          0      30.155µs      30.155µs      30.155µs      1  404.html
+
+
+                   | EN  
+-------------------+-----
+  Pages            |  8  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     | 10  
+  Processed images |  0  
+  Aliases          |  4  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 113 ms

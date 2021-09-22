@@ -1,0 +1,15 @@
+---
+baseURL: "http://hugo.test/"
+languageCode: "en-us"
+title: "My New Hugo Site"
+theme: "github.com/frjo/hugo-theme-zen"
+
+mediaTypes:
+  application/x-php:
+    suffixes: ["php"]
+
+outputFormats:
+  PHP:
+    mediaType: application/x-php
+    notAlternative: true
+    isPlainText: true
